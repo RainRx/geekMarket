@@ -1,0 +1,32 @@
+<view class="index">
+    <view class="swiper">
+      <swiper indicator-dots="{{false}}"  duration="200" style="height:100%;" bindchange="swiperChange" autoplay="true" circular="true">
+        <block wx:for="{{bannerList}}" wx:key="{{index}}">
+          <swiper-item>
+            <image class="swiper-image" src="{{item}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="indicator-dots">
+        <view class="dot {{swiperIndex==index?'dot-active':''}}" wx:for="{{bannerList}}"></view>
+      </view>
+  </view>
+
+  <view class="grids">
+    <view class="balance" hover-class="hover-class" hover-stay-time="200" bindtap="toTopup">
+      <text class="title">当前余额</text>
+      <view>
+        <text class="number">{{balance}}</text>
+        <text style="font-size:26rpx;font-weight:bold">¥</text>
+      </view>
+      <text style="font-size:24rpx;font-weight:bold;text-decoration:underline;color:#c9ab79;margin-top:-10rpx">立即充值</text>
+    </view>
+    <view class="fence">
+      <view style="border-right: 3rpx solid #cccccc;width:4rpx;height:80rpx"></view>
+    </view>
+    <view class="qrcode" hover-class="hover-class" hover-stay-time="200" bindtap="toQrcode">
+        <image src="../../pages/img/qrcode.png" class="img" />
+        <text style="font-size:24rpx;font-weight:bold">我的付款码</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+    "usingComponents":{
+        "r-list":"/components/list/list",
+        "i-message": "../../dist/message/index"
+    },
+    "navigationBarTitleText": "我的"
+}

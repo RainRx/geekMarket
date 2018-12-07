@@ -1,0 +1,104 @@
+
+.hover-class{
+    opacity: 0.7;
+}
+
+.topup{
+    width: 670rpx;
+    margin: 0 auto;
+}
+
+.topup .balance{
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.balance .title{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.balance .number{
+    font-size: 80rpx;
+    font-weight: bold;
+}
+
+.topup .taps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60rpx;
+}
+
+.taps .tap{
+    border:#eeeeee 1rpx solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:315rpx;
+    height: 100rpx;
+    border-radius: 10rpx;
+    box-shadow: 0 6px 18px 0 rgba(200, 200, 200, 0.4);
+    margin-bottom: 40rpx;
+}
+
+.tap .number{
+    font-size: 36rpx;
+    font-weight: bold
+}
+
+.tap.checked{
+    background: linear-gradient(135deg, #c9ab79, #f5dfb3);
+    box-shadow: 0 6px 18px 0 rgba(245,223,179,0.7);
+}
+
+.topup .other-money{
+    display: flex;
+    flex-direction: column;
+}
+
+.other-money .title{
+    font-size: 26rpx;
+    font-weight: bold;
+}
+
+.other-money input{
+    margin-top: 20rpx;
+    background-color: #fafafa;
+    padding: 20rpx;
+}
+
+.topup .btn{
+    margin-top: 40rpx;
+    height: 100rpx;
+    background-color: #30313b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px 0 rgba(48,49,59,0.4);
+}
+
+.btn .text{
+    color:#ffffff;
+    font-size: 32rpx;
+    font-weight: bold;
+    
+}
+
+.topup .money{
+    text-align: center;
+    margin-top: 40rpx;
+}
+
+.money .number{
+    font-size: 70rpx;
+    font-weight: bold;
+    color: #c9ab79
+}
+
+.money .title{
+    font-size: 26rpx;
+    font-weight: bold;
+    color: #c9ab79
+}

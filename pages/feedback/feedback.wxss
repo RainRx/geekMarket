@@ -1,0 +1,54 @@
+.page {
+    background-color: #fafafa;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    height: 400rpx;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    height: 320rpx;
+    width: 710rpx;
+    padding: 20rpx;
+}
+
+.number_limit {
+    height: 40rpx;
+    width: 710rpx;
+    padding: 20rpx;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fr {
+    color: #848484;
+}
+
+.button {
+    width: 670rpx;
+    margin-top: 40rpx;
+    height: 100rpx;
+    background-color: #30313b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px 0 rgba(48, 49, 59, 0.4);
+}
+
+.button_text {
+    color: #ffffff;
+    font-size: 32rpx;
+    font-weight: bold;
+}
+
+.btn_bind {
+    opacity: 0.7
+}

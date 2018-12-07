@@ -1,0 +1,17 @@
+<view class="developer">
+    
+    <block wx:for="{{developersList}}">
+        <view class="card">
+            
+            <text class="name">{{item.name}}</text>
+            <view class="bottom">
+                <image class="img" src="{{item.imgUrl}}"/>
+                <view class="description">
+                    <text>{{item.college}}</text>
+                    <text>{{item.github}}</text>
+                    <text>{{item.QQ}}</text>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>

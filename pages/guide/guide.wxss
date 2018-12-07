@@ -1,0 +1,22 @@
+.guide{
+    padding: 40rpx;
+}
+
+.guide text{
+    display: block;
+}
+
+.guide .title{
+    font-size: 50rpx;
+    font-weight: bold;
+    color:#c9ab79;
+    background: linear-gradient(135deg, #c9ab79, #f5dfb3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.guide .description{
+    margin-top: 20rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+}

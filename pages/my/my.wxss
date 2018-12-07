@@ -1,0 +1,139 @@
+@import '../../pages/icon/icon.wxss';
+
+.hover-class{
+    opacity: 0.7;
+}
+
+.my .my-top{
+    background-color: #30313b;
+    height: 250rpx;
+}
+
+.my .info-card{
+    width: 670rpx;
+    padding: 20rpx;
+    height: 200rpx;
+    margin: -200rpx auto;
+    z-index: 10;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px 0 rgba(200, 200, 200, 0.7);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.info-card .userinfo-avatar{
+    height: 128rpx;
+    width: 128rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info-card .card-right{
+    margin-left: 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card .userinfo-nickname{
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+.card-right .vip-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-right .vip-rank{
+    color: #c9ab79;
+    margin-left: 5rpx;
+    font-size: 36rpx;
+}
+
+.card-right .progress{
+    margin-top: 20rpx;
+    width: 500rpx;
+    text-align: end;
+}
+
+.info-card .qrcode{
+    position: absolute;
+    right: 42rpx;
+    top: 20rpx;
+}
+
+.qrcode image{
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.my .vip-card{
+    width: 710rpx;
+    height: 350rpx;
+    margin: 230rpx auto 0;
+    background-image: url('http://118.24.92.182/test/vip-background.jpg');
+    background-size: 100% 100%;
+    box-shadow: 0 6px 18px 0 rgba(48, 49, 59, 0.5);
+    border-radius: 20rpx;
+    position: relative;
+    background-color: #383838;
+}
+
+.vip-card .fence{
+    position: absolute;
+    left: 0;
+    top: 120rpx;
+    height: 15rpx;
+    width: 240rpx;
+    background:linear-gradient(90deg,#c9ab79,#f5dfb3)
+}
+
+.vip-card .logo{
+    top:20rpx;
+    left: 50rpx;
+    position: absolute;
+    font-size: 65rpx;
+    font-weight: bold;
+    background: linear-gradient(135deg, #c9ab79, #f5dfb3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.vip-card .No{
+    position:absolute;
+    bottom: 20rpx;
+    left: 20rpx;
+    color: #c9ab79;
+    font-size: 26rpx;
+    text-shadow: #000000 4rpx 4rpx 4rpx;
+}
+
+.vip-card .balance{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: end;
+    right: 50rpx;
+    top: 90rpx;
+
+}
+
+.balance .number{
+    font-size: 90rpx;
+    font-weight: bold;
+    color: #f5dfb3
+}
+
+.balance .top-up{
+    margin-top: -10rpx;
+    color: #f5dfb3;
+    /* text-decoration: underline; */
+    font-size: 30rpx;
+}
+
+.my .lists{
+    margin: 40rpx 20rpx 0 20rpx;
+
+}

@@ -1,0 +1,11 @@
+<view class="guide">
+    <view style="margin-bottom:60rpx;">
+        <text class="title">会员优惠说明</text>
+        <text class="description">一次性充值满一定金额可享受额外优惠</text>
+    </view>
+    <view >
+        <text class="title">会员制度说明</text>
+        <text class="description">根据会员积分，可享受特别折扣</text>
+    </view>
+
+</view>

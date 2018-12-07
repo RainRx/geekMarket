@@ -1,0 +1,52 @@
+.developer{
+    padding: 40rpx;
+}
+
+.developer .title{
+    font-size: 50rpx;
+    font-weight: bold;
+}
+
+.developer .card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 40rpx;
+}
+
+.card .name{
+    font-size: 60rpx;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.card .name::before{
+    content: '';
+    width: 65rpx;
+    height: 20rpx;
+    background:rgba(201,171,121, 0.7);
+    position: absolute;
+    top:60rpx;
+    
+}
+
+.card .bottom{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rpx;
+}
+
+.bottom .img{
+    height: 150rpx;
+    width: 150rpx;
+    
+}
+
+.bottom .description{
+    margin-left: 30rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

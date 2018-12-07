@@ -1,0 +1,33 @@
+<view class="topup">
+    <view class="balance">
+        <text class="title">当前余额</text>
+        <view style="margin-top:-10rpx">
+            <text class="number">{{balance}}</text>
+            <text class="title">¥</text>
+        </view>
+    </view>
+
+    
+    <view class="taps">
+        <block wx:for="{{topupList}}">
+            <view class="tap {{item.checked?'checked':''}}" id="{{index}}" bindtap="tapChoose">
+                <!-- 此处不可换行 -->
+                <text class="number" style="{{item.checked?'color:#ffffff':''}}">{{item.title}}</text>
+            </view>
+        </block>
+    </view>
+    <view class="other-money">
+        <text class="title">其他金额</text>
+        <input placeholder="输入金额" placeholder-style="font-size:30rpx" type="number" bindinput="moneyInput" value="{{inputValue}}" maxlength="5" bindtap="inputTouch"/>
+    </view>
+
+    <view class="money">
+        <text class="number">{{topupMoney}}</text>
+        <text class="title">元</text>
+    </view>
+    <view class="btn" hover-class="hover-class" hover-stay-time="100" bindtap="topup">
+        <text class="text">立即充值</text>
+    </view>
+</view>
+
+<i-message id="message"/>

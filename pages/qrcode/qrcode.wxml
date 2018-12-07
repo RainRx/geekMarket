@@ -1,0 +1,5 @@
+<view class="qrcode" catchtouchmove="preventTouchMove">
+    
+    <image class="qrcode-img" src="{{imgdata}}"/>
+    <text class="text">将二维码对准扫码器即可享受折扣支付</text>
+</view>
