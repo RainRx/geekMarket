@@ -1,0 +1,58 @@
+@import '../../pages/icon/icon.wxss';
+
+.big-good{
+    margin-top: 30rpx;
+    width: 320rpx;
+    height: 480rpx;
+    background:#ffffff;
+    box-shadow: 0 6px 18px 0 rgba(200, 200, 200, 0.3);
+    position: relative;
+}
+
+.big-good .picture{
+    width: 320rpx;
+    height: 320rpx;
+    background-color: #eeeeee;
+}
+
+.big-good .desc{
+    padding: 10rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc .name{
+    font-size: 32rpx;
+    font-weight: bold;
+    line-height: 120%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+
+
+.sub-desc .light{
+    font-size: 26rpx;
+    color:#888888;
+}
+
+.desc .price{
+    font-size: 36rpx;
+    font-weight: bold;
+    background: linear-gradient(135deg, #c5a670, #f5dfb3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.big-good .cart{
+    position: absolute;
+    right: 10rpx;
+    bottom: 20rpx;
+    width: 50rpx;
+    height: 50rpx;
+    background: linear-gradient(135deg, #c5a670, #f5dfb3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

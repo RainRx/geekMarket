@@ -1,0 +1,77 @@
+@import '../../pages/icon/icon.wxss';
+
+.mall {}
+
+.mall .goods {
+    padding: 0 40rpx 0 40rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ad-swiper{
+    position: relative;
+}
+
+.ad-swiper .search{
+    position: absolute;
+    top:20rpx;
+    left: 40rpx;
+    height: 60rpx;
+    width: 630rpx;
+    padding: 0 20rpx 0 20rpx; 
+    background-color: rgba(200, 200, 200, .4);
+    z-index: 10;
+    border-radius: 50rpx;
+    display: flex;
+    align-items: center;
+}
+
+.ad-img {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.indicator-dots {
+    position: absolute;
+    bottom: 5rpx;
+    height: 20rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.indicator-dots .dot {
+    width: 20rpx;
+    height: 4rpx;
+    margin: 0 5rpx;
+    background-color: rgba(150, 150, 150, .3)
+}
+
+.indicator-dots .dot.dot-active {
+    background-color: #c5a670
+}
+
+.categorys{
+    margin-top: 40rpx;
+    padding: 0 40rpx 0 40rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.categorys .category{
+    width: 134rpx;
+    height: 50rpx;
+    border-radius:50rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorys .category.active{
+    background: linear-gradient(135deg, #c5a670, #f5dfb3);
+    box-shadow: 0 6px 18px 0 rgba(245,223,179, 0.2);
+}

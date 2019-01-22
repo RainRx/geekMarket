@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "big-good":"/components/bigGood/bigGood"
+  }
+}

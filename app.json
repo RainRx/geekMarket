@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
@@ -7,13 +7,14 @@
     "pages/qrcode/qrcode",
     "pages/feedback/feedback",
     "pages/guide/guide",
-    "pages/developer/developer"
+    "pages/developer/developer",
+    "pages/mall/mall"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "极市",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#9b9b9b",
@@ -24,6 +25,12 @@
         "iconPath": "pages/img/home.png",
         "pagePath": "pages/index/index",
         "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/img/shop_fill.png",
+        "iconPath": "pages/img/shop.png",
+        "pagePath": "pages/mall/mall",
+        "text": "商城"
       },
       {
         "selectedIconPath": "pages/img/my_fill.png",

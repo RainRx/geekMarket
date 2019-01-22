@@ -5,7 +5,6 @@ Page({
   data: {
     //余额
     balance: 0.0,
-
     swiperIndex: 0,
     //banner列表
     bannerList: [

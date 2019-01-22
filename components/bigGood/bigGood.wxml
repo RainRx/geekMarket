@@ -1,0 +1,16 @@
+<view class="big-good">
+    <image class="picture" src="{{pictureUrl}}" />
+    <view class="desc">
+        <text class="name">{{name}}</text>
+        <view class="sub-desc">
+            <text class="light">1袋</text>
+            <text style="color:#eeeeee;font-size:26rpx;margin:0 10rpx 0 10rpx;font-weight:bold">|</text>
+            <text class="light">已售{{saleVolume}}</text>
+        </view>
+        
+        <text class="price">¥{{price}}</text>
+    </view>
+    <view class="cart">
+        <text class="iconfont icon-cart" style="color:#ffffff;font-weight:bold"></text>
+    </view>
+</view>

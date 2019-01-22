@@ -1,0 +1,31 @@
+<view class="mall">
+    <view class="ad-swiper">
+        <view class="search">
+            <text class="iconfont icon-search" style="font-weight:bold;color:#666666;font-size:40rpx;margin-right:10rpx;"></text>
+            <text style="color:#999999;font-size:28rpx">三只松鼠买不停 领券满99减20</text>
+        </view>
+        <swiper autoplay circular bindchange="swiperChange">
+            <block wx:for="{{adList}}" wx:key="{{index}}">
+                <swiper-item>
+                    <image mode="aspectFill" src="{{item.src}}" class="ad-img"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <view class="indicator-dots">
+            <view class="dot {{swiperIndex==index?'dot-active':''}}" wx:for="{{adList}}"></view>
+        </view>
+    </view>
+    <view class="categorys">
+        <block wx:for="{{categoryList}}">
+            <view class="category {{item.checked?'active':''}}" bindtap="changeCategory" id="{{index}}">
+                <text style="font-size:24rpx;font-weight:bold;color:{{item.checked?'#ffffff':''}}">{{item.name}}</text>
+            </view>
+        </block>
+    </view>
+    <view class="goods">
+        <big-good />
+        <big-good />
+        <big-good />
+        <big-good />
+    </view>
+</view>
